@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16493CEB2BC2A79A00808228 /* ololiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16493CEA2BC2A79A00808228 /* ololiApp.swift */; };
+		16493CED2BC2A79A00808228 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16493CEC2BC2A79A00808228 /* ContentView.swift */; };
+		16493CEF2BC2A79B00808228 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16493CEE2BC2A79B00808228 /* Assets.xcassets */; };
+		16493CF22BC2A79B00808228 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16493CF12BC2A79B00808228 /* Preview Assets.xcassets */; };
+		16493CFC2BC2A79B00808228 /* ololiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16493CFB2BC2A79B00808228 /* ololiTests.swift */; };
+		16493D062BC2A79B00808228 /* ololiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16493D052BC2A79B00808228 /* ololiUITests.swift */; };
+		16493D082BC2A79B00808228 /* ololiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16493D072BC2A79B00808228 /* ololiUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		16493CF82BC2A79B00808228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16493CDF2BC2A79A00808228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16493CE62BC2A79A00808228;
+			remoteInfo = ololi;
+		};
+		16493D022BC2A79B00808228 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 16493CDF2BC2A79A00808228 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 16493CE62BC2A79A00808228;
+			remoteInfo = ololi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		16493CE72BC2A79A00808228 /* ololi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ololi.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		16493CEA2BC2A79A00808228 /* ololiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ololiApp.swift; sourceTree = "<group>"; };
+		16493CEC2BC2A79A00808228 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		16493CEE2BC2A79B00808228 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		16493CF12BC2A79B00808228 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		16493CF72BC2A79B00808228 /* ololiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ololiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16493CFB2BC2A79B00808228 /* ololiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ololiTests.swift; sourceTree = "<group>"; };
+		16493D012BC2A79B00808228 /* ololiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ololiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		16493D052BC2A79B00808228 /* ololiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ololiUITests.swift; sourceTree = "<group>"; };
+		16493D072BC2A79B00808228 /* ololiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ololiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		16493CE42BC2A79A00808228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16493CF42BC2A79B00808228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16493CFE2BC2A79B00808228 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16493CDE2BC2A79A00808228 = {
+			isa = PBXGroup;
+			children = (
+				16493CE92BC2A79A00808228 /* ololi */,
+				16493CFA2BC2A79B00808228 /* ololiTests */,
+				16493D042BC2A79B00808228 /* ololiUITests */,
+				16493CE82BC2A79A00808228 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		16493CE82BC2A79A00808228 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				16493CE72BC2A79A00808228 /* ololi.app */,
+				16493CF72BC2A79B00808228 /* ololiTests.xctest */,
+				16493D012BC2A79B00808228 /* ololiUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		16493CE92BC2A79A00808228 /* ololi */ = {
+			isa = PBXGroup;
+			children = (
+				16493CEA2BC2A79A00808228 /* ololiApp.swift */,
+				16493CEC2BC2A79A00808228 /* ContentView.swift */,
+				16493CEE2BC2A79B00808228 /* Assets.xcassets */,
+				16493CF02BC2A79B00808228 /* Preview Content */,
+			);
+			path = ololi;
+			sourceTree = "<group>";
+		};
+		16493CF02BC2A79B00808228 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				16493CF12BC2A79B00808228 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		16493CFA2BC2A79B00808228 /* ololiTests */ = {
+			isa = PBXGroup;
+			children = (
+				16493CFB2BC2A79B00808228 /* ololiTests.swift */,
+			);
+			path = ololiTests;
+			sourceTree = "<group>";
+		};
+		16493D042BC2A79B00808228 /* ololiUITests */ = {
+			isa = PBXGroup;
+			children = (
+				16493D052BC2A79B00808228 /* ololiUITests.swift */,
+				16493D072BC2A79B00808228 /* ololiUITestsLaunchTests.swift */,
+			);
+			path = ololiUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		16493CE62BC2A79A00808228 /* ololi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16493D0B2BC2A79B00808228 /* Build configuration list for PBXNativeTarget "ololi" */;
+			buildPhases = (
+				16493CE32BC2A79A00808228 /* Sources */,
+				16493CE42BC2A79A00808228 /* Frameworks */,
+				16493CE52BC2A79A00808228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ololi;
+			productName = ololi;
+			productReference = 16493CE72BC2A79A00808228 /* ololi.app */;
+			productType = "com.apple.product-type.application";
+		};
+		16493CF62BC2A79B00808228 /* ololiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16493D0E2BC2A79B00808228 /* Build configuration list for PBXNativeTarget "ololiTests" */;
+			buildPhases = (
+				16493CF32BC2A79B00808228 /* Sources */,
+				16493CF42BC2A79B00808228 /* Frameworks */,
+				16493CF52BC2A79B00808228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16493CF92BC2A79B00808228 /* PBXTargetDependency */,
+			);
+			name = ololiTests;
+			productName = ololiTests;
+			productReference = 16493CF72BC2A79B00808228 /* ololiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		16493D002BC2A79B00808228 /* ololiUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 16493D112BC2A79B00808228 /* Build configuration list for PBXNativeTarget "ololiUITests" */;
+			buildPhases = (
+				16493CFD2BC2A79B00808228 /* Sources */,
+				16493CFE2BC2A79B00808228 /* Frameworks */,
+				16493CFF2BC2A79B00808228 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				16493D032BC2A79B00808228 /* PBXTargetDependency */,
+			);
+			name = ololiUITests;
+			productName = ololiUITests;
+			productReference = 16493D012BC2A79B00808228 /* ololiUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		16493CDF2BC2A79A00808228 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					16493CE62BC2A79A00808228 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					16493CF62BC2A79B00808228 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 16493CE62BC2A79A00808228;
+					};
+					16493D002BC2A79B00808228 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = 16493CE62BC2A79A00808228;
+					};
+				};
+			};
+			buildConfigurationList = 16493CE22BC2A79A00808228 /* Build configuration list for PBXProject "ololi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 16493CDE2BC2A79A00808228;
+			productRefGroup = 16493CE82BC2A79A00808228 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				16493CE62BC2A79A00808228 /* ololi */,
+				16493CF62BC2A79B00808228 /* ololiTests */,
+				16493D002BC2A79B00808228 /* ololiUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		16493CE52BC2A79A00808228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16493CF22BC2A79B00808228 /* Preview Assets.xcassets in Resources */,
+				16493CEF2BC2A79B00808228 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16493CF52BC2A79B00808228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16493CFF2BC2A79B00808228 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		16493CE32BC2A79A00808228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16493CED2BC2A79A00808228 /* ContentView.swift in Sources */,
+				16493CEB2BC2A79A00808228 /* ololiApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16493CF32BC2A79B00808228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16493CFC2BC2A79B00808228 /* ololiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		16493CFD2BC2A79B00808228 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				16493D082BC2A79B00808228 /* ololiUITestsLaunchTests.swift in Sources */,
+				16493D062BC2A79B00808228 /* ololiUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		16493CF92BC2A79B00808228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16493CE62BC2A79A00808228 /* ololi */;
+			targetProxy = 16493CF82BC2A79B00808228 /* PBXContainerItemProxy */;
+		};
+		16493D032BC2A79B00808228 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 16493CE62BC2A79A00808228 /* ololi */;
+			targetProxy = 16493D022BC2A79B00808228 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		16493D092BC2A79B00808228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		16493D0A2BC2A79B00808228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		16493D0C2BC2A79B00808228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ololi/Preview Content\"";
+				DEVELOPMENT_TEAM = B3V4S7AV7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Norvoke.ololi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		16493D0D2BC2A79B00808228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ololi/Preview Content\"";
+				DEVELOPMENT_TEAM = B3V4S7AV7H;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Norvoke.ololi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		16493D0F2BC2A79B00808228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3V4S7AV7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Norvoke.ololiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ololi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ololi";
+			};
+			name = Debug;
+		};
+		16493D102BC2A79B00808228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3V4S7AV7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Norvoke.ololiTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ololi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ololi";
+			};
+			name = Release;
+		};
+		16493D122BC2A79B00808228 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3V4S7AV7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Norvoke.ololiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ololi;
+			};
+			name = Debug;
+		};
+		16493D132BC2A79B00808228 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B3V4S7AV7H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Norvoke.ololiUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ololi;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		16493CE22BC2A79A00808228 /* Build configuration list for PBXProject "ololi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16493D092BC2A79B00808228 /* Debug */,
+				16493D0A2BC2A79B00808228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16493D0B2BC2A79B00808228 /* Build configuration list for PBXNativeTarget "ololi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16493D0C2BC2A79B00808228 /* Debug */,
+				16493D0D2BC2A79B00808228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16493D0E2BC2A79B00808228 /* Build configuration list for PBXNativeTarget "ololiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16493D0F2BC2A79B00808228 /* Debug */,
+				16493D102BC2A79B00808228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		16493D112BC2A79B00808228 /* Build configuration list for PBXNativeTarget "ololiUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				16493D122BC2A79B00808228 /* Debug */,
+				16493D132BC2A79B00808228 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 16493CDF2BC2A79A00808228 /* Project object */;
+}
